@@ -25,3 +25,9 @@ Her er noen eksempler på data som bør inn.
 
 (Noen er allerede i bruk i interne system, andre er planlagt brukt i interne system. I tillegg kan vi sørge for å ha datasett som er etterspurt fra våre egen QGIS-brukere)
 Dette kan fort bli flere databaser, og ikke alt trenger å realiseres med en gang, men radig å få på plass et rammeverk og pipelines. Vi har gjort tester på PostGreSQL med PostGIS i docker. Så  dette vil være det første som legges til i repoet. Husk .gitingore når vi holder på med store datamengder.
+
+I utgangspunktet er dette tenkt som en vektordatabase, men via EcoMapprosjektet vil vi også få større rasterdatasett som vi skal forvalte. Det vil være naturlig å begynne å tenke på rasterdata i dette prosjektet, da mye er felles med vektordata, men muligens litt annen teknisk løsning.
+
+- PostGIS Raster:Lagrer raster direkte i databasen.Best for mindre rasetere eller når du trenger transaksjonssikkerhet sammen med vektordata.
+- Cloud Optimized GeoTIFF (COG) + Objektlager (S3/MinIO):Moderne standard for store rastermengder. Dataene lagres som optimaliserte filer i skyen fremfor i en tradisjonell database, og leses ved behov via verktøy som GDAL.
+- DuckDB (med Spatial-utvidelse):Rask, filbasert analytisk database som egner seg godt for raske spørringer på romlige data og raster/vektorkombinasjoner.
