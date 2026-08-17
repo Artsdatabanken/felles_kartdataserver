@@ -6,7 +6,7 @@ Vi kan med fordel se på om data som i dag er tilgjengelig på IPT fra excelark 
 
 Hvilken løsning man velger er enda ikke klart, men PostGreSQL med PostGIS-geometri vs MSSQL er vel de reelle alternativene. En hybridløsning mellom Open Source og Azure er vel fort uansett fasiten. [Her er side generert i CoPilot for å belyse mulighetene](https://artsdatabankenno.sharepoint.com/:fl:/g/contentstorage/x8FNO-xtskuCRX2_fMTHLe9nnyTZSFZPrlyradMCMSI/IQC0YcUqZpyFTboDriLYuvV7AZDnrznJvunA2q4X4nnWn1g?e=I0ccKg&nav=cz0lMkZjb250ZW50c3RvcmFnZSUyRng4Rk5PLXh0c2t1Q1JYMl9mTVRITGU5bm55VFpTRlpQcmx5cmFkTUNNU0kmZD1iJTIxNHN4OXo0Y1ZqVS10S0o4VHJiSS1PSllGZ3VHbUlOdExxblRsMVZGWUxvT1EzNW15cDM4cFRhbjkzUGh6T2tVNyZmPTAxVkZXT01ZTlVNSENTVVpVNFFWRzNVQTVPRUxNTFY1TDMmYz0lMkYmcD0lNDBmbHVpZHglMkZsb29wLXBhZ2UtY29udGFpbmVy "Gå til Copliot" ) De fleste av våre applikasjoner er basert på Open Source og det vil være naturlig med en sterk forankring mot det.
 
-Vi bør bygge opp våre egne script, mulig med utgangspunkt i massivnedlasteren til Kartverket for å sikre at eksterne data, som vi trenger å ha lokalt, til en hver tid er oppdatert.
+Vi bør bygge opp våre egne script, mulig med utgangspunkt i [massivnedlasteren til Kartverket](https://github.com/kartverket/Geonorge.NedlastingKlient/ "Klient for massiv nedlasting fra Kartverket på GitHUB" ) for å sikre at eksterne data, som vi trenger å ha lokalt, til en hver tid er oppdatert.
 
 Her er noen eksempler på data som bør inn.
 - Verneområder
