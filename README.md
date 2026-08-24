@@ -2,7 +2,7 @@
 
 [Oversikt over behov i Powerpoint](https://artsdatabankenno.sharepoint.com/:p:/s/Artskart/IQBll5gjleQdS5AL_Kv_fmpDAXBNtvL9emExMFDWsNKOGaE?e=4m5GB0 "Powerpoint lagret i kanalen til Artskart på Teams")
 
-ADB har et behov for å en felles kartdataserver for å håndtere geodataflyt innad i ADB og utad. Applikasjoner som Artskart, Artsobservasjoner og Økologisk grunnkart trenger eksterne kartdata som bør lastes ned og røktes i fellesskap. Vi er orginaldataforvalter på en del datasett som vi ønsker at det skal være god tilgang på i GeoNorge og i egne systemer. Dette kommer i tillegg til selve Artskart og Artobservasjoner som er egne kartapplikasjoner med orginaldata.
+Artsdatabanken har et behov for å en felles kartdataserver for å håndtere geodataflyt innad i Artsdatabanken og utad. Applikasjoner som Artskart, Artsobservasjoner og Økologisk grunnkart trenger eksterne kartdata som bør lastes ned og røktes i fellesskap. Vi er orginaldataforvalter på en del datasett som vi ønsker at det skal være god tilgang på i GeoNorge og i egne systemer. Dette kommer i tillegg til selve Artskart og Artobservasjoner som er egne kartapplikasjoner med orginaldata.
 
 Vi kan med fordel se på om data som i dag er tilgjengelig på IPT fra excelark kan ligge i kartdatabase istedet. Med en god database i bunn kan vi serve [OGC-api](https://ogcapi.ogc.org/ "Gå til OGC-api" ) for både Maps og Features. Vi vil kunne ha et hjem for fremtidig lagrin av NIN-data. Vi vil ha et godt utgangspunkt for røkting av data i QGIS på fagansvarlignivå. Og vi kan via API legge grunnlaget for Plugins i QGIS både for oss selv og eksterne.
 
